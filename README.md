@@ -65,6 +65,8 @@
 - [GitHub](https://github.com/GeantCreeper/weather_station) – gestion du code source
 - Discord – communication de groupe
 - Visual Studio Code – développement logiciel
+- Node-RED – mise en place de la logique pour la Station Météorologique
+- Arduino IDE – injection du code dans l'ESP32
 
 ---
 
