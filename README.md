@@ -92,5 +92,3 @@ Node-RED est utilisé pour :
 ##  Maquette ou modèles 3D
 
 >  **Plans ou rendus 3D à insérer ici (structure, capteurs, anémomètre DIY, etc.)**
-
----
