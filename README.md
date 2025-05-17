@@ -1,42 +1,42 @@
-# 🌦️ Dossier Technique – Station Météo Connectée
+#  Dossier Technique – Station Météo Connectée
 
-## 📌 Sujet choisi
+##  Sujet choisi
 
 **Sujet 2 – Station Météo Connectée**
 
 ---
 
-## 🔍 Identification des problèmes dans le contexte
+##  Identification des problèmes dans le contexte
 
 - Récupérer et afficher les données météorologiques
 
 ---
 
-## 💡 Proposition de réponse
+##  Proposition de réponse
 
 - Mise en place de capteurs afin de créer une station météorologique
 - Exploitation des données via interface visuelle
 
 ---
 
-## 🧱 Composants utilisés
+##  Composants utilisés
 
-### 🧠 Microcontrôleurs
+###  Microcontrôleurs
 - ESP32  
 - Breadboard  
 - Câble micro-USB
 
-### 🌡️ Capteurs
+###  Capteurs
 - Module à effet Hall **KY024LM**
 - Capteur **BME280** : pression, température, humidité
 - **Luxmètre SEN0097**
 
-### ⚙️ Actionneurs
+###  Actionneurs
 - Ventilateur **Gravity DFR0332**
 - Bandeau de LED **Stick NeoPixel RGB 8 LEDs ADA1426**
 - Afficheur **OLED 0,96" I2C OLED01**
 
-### 🔧 Divers
+###  Divers
 - Aimant  
 - Prise avec alimentation (1V – 12V)  
 - Connecteur pour prise alimentation ou coupleur 4 piles LR3 (4AAA-P)  
@@ -49,7 +49,7 @@
 
 ---
 
-## 👥 Répartition des tâches au sein du groupe
+##  Répartition des tâches au sein du groupe
 
 | Prénom   | Rôle                                                       |
 |----------|------------------------------------------------------------|
@@ -60,7 +60,7 @@
 
 ---
 
-## 🛠️ Outils utilisés
+##  Outils utilisés
 
 - [GitHub](https://github.com/) – gestion du code source
 - [Discord](https://discord.com/) – communication de groupe
@@ -68,19 +68,19 @@
 
 ---
 
-## 🧠 Architecture logicielle
+##  Architecture logicielle
 
-> 🔜 **Logigramme à insérer ici**
-
----
-
-## 🧩 Schéma de câblage
-
-> 🔜 **Schéma à insérer ici (format image ou Fritzing)**
+>  **Logigramme à insérer ici**
 
 ---
 
-## 🌐 Intégration de Node-RED
+##  Schéma de câblage
+
+>  **Schéma à insérer ici (format image ou Fritzing)**
+
+---
+
+##  Intégration de Node-RED
 
 Node-RED est utilisé pour :
 - **Récupérer les données météo à distance**
@@ -89,13 +89,13 @@ Node-RED est utilisé pour :
 
 ---
 
-## 🏗️ Maquette ou modèles 3D
+##  Maquette ou modèles 3D
 
-> 🔜 **Plans ou rendus 3D à insérer ici (structure, capteurs, anémomètre DIY, etc.)**
+>  **Plans ou rendus 3D à insérer ici (structure, capteurs, anémomètre DIY, etc.)**
 
 ---
 
-## 📦 Remarques
+##  Remarques
 
 Le projet est conçu uniquement à partir du matériel disponible dans le stock fourni.
 
