@@ -94,13 +94,3 @@ Node-RED est utilisé pour :
 >  **Plans ou rendus 3D à insérer ici (structure, capteurs, anémomètre DIY, etc.)**
 
 ---
-
-##  Remarques
-
-Le projet est conçu uniquement à partir du matériel disponible dans le stock fourni.
-
-
-NodeRed permet l’utilisation de la station en récupérant les données à distance et permettant leur exploitation en les affichant sur un tableau de bord
-
-Plans de la maquette ou des modèles 3D nécessaires pour le projet :
-
