@@ -62,9 +62,9 @@
 
 ##  Outils utilisés
 
-- [GitHub](https://github.com/) – gestion du code source
-- [Discord](https://discord.com/) – communication de groupe
-- [Visual Studio Code](https://code.visualstudio.com/) – développement logiciel
+- [GitHub](https://github.com/GeantCreeper/weather_station) – gestion du code source
+- Discord – communication de groupe
+- Visual Studio Code – développement logiciel
 
 ---
 
