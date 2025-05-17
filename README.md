@@ -91,4 +91,4 @@ Node-RED est utilisé pour :
 
 ##  Maquette ou modèles 3D
 
-[Structure de la Station Météorologique](https://boxes.hackerspace-bamberg.de/Console2?language=fr)
+- [Structure de la Station Météorologique](https://boxes.hackerspace-bamberg.de/Console2?language=fr)
