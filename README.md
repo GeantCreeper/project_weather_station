@@ -73,13 +73,13 @@
 
 ##  Architecture logicielle
 
-![Texte alternatif](Logigramme.png)
+![Logigramme](logigramme.png)
 
 ---
 
 ##  Schéma de câblage
 
->  **Schéma à insérer ici (format image ou Fritzing)**
+![Schéma électrique](schema_electrique.png)
 
 ---
 
