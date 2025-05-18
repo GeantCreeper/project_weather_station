@@ -73,7 +73,7 @@
 
 ##  Architecture logicielle
 
-- [Logigramme](Logigramme.png)
+![Texte alternatif](Logigramme.png)
 
 ---
 
