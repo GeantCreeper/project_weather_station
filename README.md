@@ -56,7 +56,7 @@
 | Jean     | Conception hardware et câblage                             |
 | Nikola   | Développement logiciel pour capteurs et actionneurs        |
 | Mathéo   | Développement logiciel pour MQTT via wifi                  |
-| Kylian   | *(À compléter)*                                            |
+| Kylian   | Mise en place du serveur Node-RED                          |
 
 ---
 
