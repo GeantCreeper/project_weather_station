@@ -73,7 +73,7 @@
 
 ##  Architecture logicielle
 
->  **Logigramme à insérer ici**
+- [Logigramme](Logigramme.png)
 
 ---
 
