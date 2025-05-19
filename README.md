@@ -30,9 +30,10 @@
 - Module à effet Hall **KY024LM**
 - Capteur **BME280** : pression, température, humidité
 - **Luxmètre SEN0097**
+- Qualité de l’air **SENCCS811V1**
 
 ###  Actionneurs
-- Ventilateur **Gravity DFR0332**
+- Buzzer **MH-FMD**
 - Bandeau de LED **Stick NeoPixel RGB 8 LEDs ADA1426**
 - Afficheur **OLED 0,96" I2C OLED01**
 
