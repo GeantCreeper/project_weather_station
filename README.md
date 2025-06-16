@@ -40,14 +40,9 @@
 ###  Divers
 - Aimant  
 - Prise avec alimentation (1V – 12V)  
-- Connecteur pour prise alimentation ou coupleur 4 piles LR3 (4AAA-P)  
-- Charnière fer  
+- Connecteur pour prise alimentation
+- vis à bois 
 - Câbles  
-- Module **Grove Base Shield 103030000**  
-- Bouton poussoir  
-- Résistances  
-- Autres composants selon besoins
-
 ---
 
 ##  Répartition des tâches au sein du groupe
