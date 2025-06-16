@@ -95,5 +95,5 @@ Node-RED est utilisé pour :
 
 ##  Maquette et modèles 3D
 
-- [Structure de la Station Météorologique](sation meteo v3.dxf)
+- ![Structure de la Station Météorologique](sation meteo v3.dxf)
 - [Anémomètre 1](https://www.printables.com/model/599533-anemometer-v2-for-arduino) ou [Anémomètre 2](https://www.thingiverse.com/thing:942299) ou [Anémomètre 3](https://www.thingiverse.com/thing:3648443)
