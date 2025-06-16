@@ -95,7 +95,5 @@ Node-RED est utilisé pour :
 
 ##  Maquette et modèles 3D
 
-- [Structure de la Station Météorologique](https://boxes.hackerspace-bamberg.de/Console2?language=fr)
-- [Support vertical pour ESP32](https://www.printables.com/model/537566-customizable-esp32-lateral-support)
-- [Support horizontal pour ESP32](https://www.thingiverse.com/thing:4230273)
+- [Structure de la Station Météorologique](sation meteo v3.dxf)
 - [Anémomètre 1](https://www.printables.com/model/599533-anemometer-v2-for-arduino) ou [Anémomètre 2](https://www.thingiverse.com/thing:942299) ou [Anémomètre 3](https://www.thingiverse.com/thing:3648443)
