@@ -17,7 +17,7 @@
   de s’intégrer proprement dans un seul programme.
 */
 
-// ======================== LIBRAIRIES ========================
+
 #include <Wire.h>
 #include <Adafruit_CCS811.h>
 #include <BH1750.h>
@@ -27,8 +27,6 @@
 #include <Adafruit_NeoPixel.h>
 #include <WiFi.h>
 #include <PubSubClient.h>
-
-// ===== Fonctions tone()/noTone() pour ESP32 (buzzer) – reprises du sketch original
 #include "driver/ledc.h"
 void tone(uint8_t pin, unsigned int frequency, unsigned long duration = 0) {
   ledcAttachPin(pin, 0);
@@ -42,7 +40,6 @@ void noTone(uint8_t pin) {
   ledcDetachPin(pin);
 }
 
-// ========================= PINS =============================
 #define PIN_SDA          21
 #define PIN_SCL          22
 #define PIN_BUZZER        5
@@ -51,18 +48,16 @@ void noTone(uint8_t pin) {
 #define PIN_ANEMO_DIG     4
 #define PIN_ANEMO_ANALOG 35
 
-// ==================== OBJETS CAPTEURS =======================
 Adafruit_CCS811    ccs;
 BH1750             luxMeter;
 Adafruit_BMP280    bmp;
 Adafruit_SSD1306   display(128, 64, &Wire, -1);
 Adafruit_NeoPixel  strip(N_PIXELS, PIN_NEOPIXEL, NEO_GRB + NEO_KHZ800);
 
-// ===================== ANÉMOMÈTRE ===========================
 volatile uint32_t pulseCount = 0;
 volatile uint32_t lastMicros  = 0;
-const float  K_M_S    = 0.314;   // 2πr, r ≈ 50 mm  → convertit Hz → m/s
-const uint32_t DEBOUNCE_US = 5000; // >5 ms pour éviter les rebonds (<200 Hz)
+const float  K_M_S    = 0.314;   //convertit Hz → m/s
+const uint32_t DEBOUNCE_US = 5000; // >5 ms 
 void IRAM_ATTR onPulse() {
   uint32_t now = micros();
   if (now - lastMicros > DEBOUNCE_US) {
@@ -71,26 +66,22 @@ void IRAM_ATTR onPulse() {
   }
 }
 
-// =================== WIFI / MQTT  ===========================
-const char* WIFI_SSID     = "VOTRE_SSID";    // <‑‑‑ À renseigner
-const char* WIFI_PASSWORD = "VOTRE_PASS";
-const char* MQTT_SERVER   = "192.168.1.100"; // <‑‑‑ IP du broker
+const char* WIFI_SSID     = "node-bread";    // <‑‑‑ À renseigner
+const char* WIFI_PASSWORD = "breadnode";
+const char* MQTT_SERVER   = "mqtt.ci-ciad.utbm.fr:1883"; // <‑‑‑ IP du broker
 const char* MQTT_TOPIC_CMD = "buzzer/cmd";
 
 WiFiClient      espClient;
 PubSubClient    mqttClient(espClient);
 
-// ===================== SEUILS ALERTES =======================
 #define ECO2_THRESHOLD   1000   // ppm
 #define TVOC_THRESHOLD    500   // ppb
 #define TEMP_HIGH_THR      35.0 // °C
 #define TEMP_LOW_THR        0.0 // °C
 #define WIND_HIGH_THR      10.0 // m/s
 
-// ===================== CADENCES  ============================
-const uint32_t SENSOR_PERIOD_MS = 2000;  // 1 cycle / 2 s
+const uint32_t SENSOR_PERIOD_MS = 2000; 
 
-// ================ PROTOTYPES & VARIABLES ====================
 void connectWiFi();
 void connectMQTT();
 void mqttCallback(char* topic, byte* payload, unsigned int length);
@@ -101,7 +92,6 @@ void alertIfNeeded(uint16_t eco2, uint16_t tvoc, float t, float wind);
 // temps
 uint32_t lastSensorMs = 0;
 
-// ======================== SETUP =============================
 void setup() {
   // --- Console ---
   Serial.begin(115200);
@@ -113,22 +103,22 @@ void setup() {
 
   // --- Capteur CCS811 (qualité d’air) — code inchangé encapsulé
   if (!ccs.begin()) {
-    Serial.println(F("❌ CCS811 introuvable !"));
+    Serial.println(F("CCS811 introuvable "));
     while (true) delay(1000);
   }
-  Serial.println(F("⏳ CCS811 chauffe…"));
+  Serial.println(F("CCS811 chauffe"));
   while (!ccs.available()) delay(50);
-  Serial.println(F("✅ CCS811 prêt"));
+  Serial.println(F("CCS811 prêt"));
 
   // --- BH1750 (lux) — code inchangé encapsulé
   if (!luxMeter.begin(BH1750::CONTINUOUS_HIGH_RES_MODE, 0x5C, &Wire)) {
-    Serial.println(F("❌ BH1750 KO !"));
+    Serial.println(F("BH1750 KO"));
     while (true) delay(1000);
   }
 
   // --- BMP280 (temp / pression)
   if (!bmp.begin(0x76)) {
-    Serial.println(F("❌ BMP280 KO !"));
+    Serial.println(F("BMP280 KO "));
     while (true) delay(1000);
   }
   bmp.setSampling(Adafruit_BMP280::MODE_NORMAL,
@@ -151,7 +141,7 @@ void setup() {
 
   // --- OLED ---
   if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
-    Serial.println(F("❌ SSD1306 KO !"));
+    Serial.println(F("SSD1306 KO "));
     while (true) delay(1000);
   }
   display.clearDisplay();
@@ -168,7 +158,6 @@ void setup() {
   connectMQTT();
 }
 
-// ======================== LOOP ==============================
 void loop() {
   // gestion MQTT continue
   if (!mqttClient.connected()) connectMQTT();
@@ -213,7 +202,6 @@ void loop() {
   }
 }
 
-// ====================== FONCTIONS ===========================
 void connectWiFi() {
   Serial.printf("Connexion Wi‑Fi à %s…\n", WIFI_SSID);
   WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
