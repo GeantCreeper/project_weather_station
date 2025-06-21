@@ -1,56 +1,33 @@
-/*****************************************************************
- *  BMP280  –  ESP32 (I²C, T° + Pression seulement)
- *
- *  Câblage (mode I²C) :
- *    BMP280 VIN  → 3V3
- *    BMP280 GND  → GND
- *    BMP280 SCL  → GPIO 22
- *    BMP280 SDA  → GPIO 21
- *    BMP280 CS   → 3V3      // force l’I²C
- *    BMP280 SDO  → GND      // adresse 0x76  (ou 3V3 pour 0x77)
- *
- *  Bibliothèque à installer : « Adafruit BMP280 »
- *****************************************************************/
 #include <Wire.h>
 #include <Adafruit_BMP280.h>
 
-// --- Adresse I²C selon SDO ---
-#define BMP280_ADDR 0x76        // 0x76 (SDO→GND) ou 0x77 (SDO→3V3)
-
-// --- Broches I²C (modifiables) ---
-constexpr uint8_t SDA_PIN = 21; // data
-constexpr uint8_t SCL_PIN = 22; // clock
-
-Adafruit_BMP280 bmp;            // instance capteur
+// Déclaration du capteur BMP280 en I2C
+Adafruit_BMP280 bmp;  
 
 void setup() {
   Serial.begin(115200);
-  delay(200);                   // laisse le temps au port série
-
-  Wire.begin(SDA_PIN, SCL_PIN); // initialise le bus I²C
-
-  if (!bmp.begin(BMP280_ADDR)) {
-    Serial.println(F("❌  BMP280 introuvable – vérifiez câblage et adresse !"));
-    while (1) delay(10);
+  if (!bmp.begin(0x76)) {                      // Initialise le BMP280 à l'adresse 0x76 (modifier en 0x77 si nécessaire)
+    Serial.println("BMP280 introuvable, vérifier le câblage ou l'adresse !");
+    while (1) delay(100);
   }
-  Serial.println(F("✅  BMP280 détecté – mesures T°/P en cours…"));
-
-  // Réglages optionnels (décommenter pour modifier)
-  /*
-  bmp.setSampling(Adafruit_BMP280::MODE_NORMAL,
-                  Adafruit_BMP280::SAMPLING_X2,   // sur-échantillonnage T°
-                  Adafruit_BMP280::SAMPLING_X16,  // sur-échantillonnage P
-                  Adafruit_BMP280::FILTER_X16,
+  // Configuration optionnelle : mode normal, oversampling x2 (temp) / x16 (press), filtre x16
+  bmp.setSampling(Adafruit_BMP280::MODE_NORMAL, 
+                  Adafruit_BMP280::SAMPLING_X2,   // suréchantillonnage température
+                  Adafruit_BMP280::SAMPLING_X16,  // suréchantillonnage pression
+                  Adafruit_BMP280::FILTER_X16,    // filtre
                   Adafruit_BMP280::STANDBY_MS_500);
-  */
 }
 
 void loop() {
-  float temperature = bmp.readTemperature();      // °C
-  float pressure    = bmp.readPressure() / 100.0; // hPa
+  float temperature = bmp.readTemperature();      // Lecture de la température en °C
+  float pression = bmp.readPressure() / 100.0;    // Lecture de la pression en Pa, convertie en hPa
+  Serial.print("Température = ");
+  Serial.print(temperature);
+  Serial.println(" °C");
 
-  Serial.printf("T = %.2f °C   |   P = %.2f hPa\n",
-                temperature, pressure);
+  Serial.print("Pression = ");
+  Serial.print(pression);
+  Serial.println(" hPa");
 
-  delay(1000);  // 1 mesure / seconde
+  delay(2000);
 }
