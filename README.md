@@ -48,10 +48,10 @@
 
 | Prénom   | Rôle                                                       |
 |----------|------------------------------------------------------------|
-| Jean     | Conception hardware et câblage                             |
-| Nikola   | Développement logiciel pour capteurs et actionneurs        |
+| Jean     | Développement logiciel pour capteurs et actionneurs        |
+| Nikola   | Mise en place du serveur Node-RED                          |
 | Mathéo   | Développement logiciel pour MQTT via wifi                  |
-| Kylian   | Mise en place du serveur Node-RED                          |
+| Kylian   | Conception hardware et câblage                             |
 
 ---
 
