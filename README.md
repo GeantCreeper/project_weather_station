@@ -63,6 +63,8 @@
 - Node-RED – mise en place de la logique pour la Station Météorologique
 - Arduino IDE – injection du code dans l'ESP32
 - Fritzing – préparer le cablage électrique
+- Fusion 360 – Modélisation 3D des composants nécessaires 
+- BambuStudio – Impression 3D et slicing
 
 ---
 
