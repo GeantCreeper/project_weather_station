@@ -1,6 +1,6 @@
 [
     {
-        "id": "a56d2510086646c6",
+        "id": "5e2319cafdae2dc2",
         "type": "tab",
         "label": "Flux 1",
         "disabled": false,
@@ -8,9 +8,9 @@
         "env": []
     },
     {
-        "id": "b40ee474efcbeb4f",
+        "id": "66490e5be2e5c76b",
         "type": "group",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "style": {
             "stroke": "#999999",
             "stroke-opacity": "1",
@@ -21,11 +21,11 @@
             "color": "#a4a4a4"
         },
         "nodes": [
-            "2f4d42c9480dfba9",
-            "9722ab38b706fa63",
-            "319f328364bb3b0b",
-            "846dfeda76fa248f",
-            "29f974c9c6654745"
+            "15cb79d0135bfc53",
+            "bccb536998712182",
+            "6fceb1822a2637d5",
+            "c4a3cae13aacd0db",
+            "28ed450dc50a0901"
         ],
         "x": 334,
         "y": 79,
@@ -33,9 +33,9 @@
         "h": 122
     },
     {
-        "id": "03d45f06dabc29f0",
+        "id": "bc4767601cd2b386",
         "type": "group",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "style": {
             "stroke": "#999999",
             "stroke-opacity": "1",
@@ -46,11 +46,11 @@
             "color": "#a4a4a4"
         },
         "nodes": [
-            "36381abb3ec25669",
-            "32c8d929b78b7644",
-            "9e1610ee61fbb3cb",
-            "dc06ca67f906a9f6",
-            "6512920ea2199fbe"
+            "df2a9743f1ed472c",
+            "128aa01b24310cae",
+            "5d378c35c4c27171",
+            "ddb02632d26d607c",
+            "2785ae4329da0830"
         ],
         "x": 334,
         "y": 239,
@@ -58,9 +58,9 @@
         "h": 122
     },
     {
-        "id": "88461d10d6bebc15",
+        "id": "7f74d5e9e9d60cb3",
         "type": "group",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "style": {
             "stroke": "#999999",
             "stroke-opacity": "1",
@@ -71,11 +71,11 @@
             "color": "#a4a4a4"
         },
         "nodes": [
-            "d445f8ae5e77d14d",
-            "98b7800ae2c33608",
-            "b92e95cca7647e36",
-            "02ba36fc493dc64c",
-            "ec9fafc2b9d2ea68"
+            "09392c9f9eb30207",
+            "1320e995f26dd241",
+            "5144119374212a3e",
+            "b94d939c80f0afe6",
+            "a6376f8b91029835"
         ],
         "x": 334,
         "y": 399,
@@ -83,9 +83,9 @@
         "h": 122
     },
     {
-        "id": "ecaeea901ab36ce7",
+        "id": "dc71acc2b7ba6c2c",
         "type": "group",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "style": {
             "stroke": "#999999",
             "stroke-opacity": "1",
@@ -96,12 +96,12 @@
             "color": "#a4a4a4"
         },
         "nodes": [
-            "bed098e828c99eb3",
-            "e0ad7107a4e38cf1",
-            "5dc5ae79fb39de63",
-            "98c818297fcce56e",
-            "3a10e8f94505e7c7",
-            "57125e2fb2978730"
+            "e2874571c47101d4",
+            "4948f3a829faeb29",
+            "82ba761486c6f5f9",
+            "65daa40ae44f8a22",
+            "a09fb05092122063",
+            "4422038fbe97cbeb"
         ],
         "x": 334,
         "y": 559,
@@ -109,9 +109,9 @@
         "h": 122
     },
     {
-        "id": "b71f66de2934439b",
+        "id": "7040a353186ce2b6",
         "type": "group",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "style": {
             "stroke": "#999999",
             "stroke-opacity": "1",
@@ -122,12 +122,12 @@
             "color": "#a4a4a4"
         },
         "nodes": [
-            "130620fe9ab68776",
-            "28d99483b90b2e3f",
-            "ef26236a82c24402",
-            "7d49b999a6e87d3c",
-            "e34daf3b09d5b8a1",
-            "887a338a3b3280fd"
+            "3a0a1a35ca41e689",
+            "2bc5cd9b8828be44",
+            "50b0e2300c641b33",
+            "b41684f2bd4d671e",
+            "f90125ad2b167a59",
+            "91fb0d57eaa63e84"
         ],
         "x": 334,
         "y": 719,
@@ -135,25 +135,20 @@
         "h": 122
     },
     {
-        "id": "4353664f47c4e532",
+        "id": "feb221da3d385151",
         "type": "group",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
+        "name": "",
         "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
+            "label": true
         },
         "nodes": [
-            "bb23930badcfa79b",
-            "8fc39666d720e7d0",
-            "fda429f56e70e068",
-            "6a36296e935bfc3c",
-            "15f824b8e2d35f3e",
-            "14f29eeb7e548e8e"
+            "69c053e5153db793",
+            "3d4c20428fcff282",
+            "6e8a98a083f8ed47",
+            "aa5d3809a5350cd2",
+            "582c66ac85586a74",
+            "25782ad6b4e2afee"
         ],
         "x": 334,
         "y": 879,
@@ -161,10 +156,10 @@
         "h": 122
     },
     {
-        "id": "2f4d42c9480dfba9",
+        "id": "15cb79d0135bfc53",
         "type": "function",
-        "z": "a56d2510086646c6",
-        "g": "b40ee474efcbeb4f",
+        "z": "5e2319cafdae2dc2",
+        "g": "66490e5be2e5c76b",
         "name": "temp fonc",
         "func": "let data = JSON.parse(msg.payload);\nmsg.topic = \"INSERT INTO temperature (valeur, date) VALUES (?, NOW())\";\nmsg.payload = [data.temp];\nreturn msg;",
         "outputs": 1,
@@ -177,15 +172,15 @@
         "y": 160,
         "wires": [
             [
-                "9722ab38b706fa63"
+                "bccb536998712182"
             ]
         ]
     },
     {
-        "id": "9722ab38b706fa63",
+        "id": "bccb536998712182",
         "type": "mysql",
-        "z": "a56d2510086646c6",
-        "g": "b40ee474efcbeb4f",
+        "z": "5e2319cafdae2dc2",
+        "g": "66490e5be2e5c76b",
         "mydb": "9e13d4612c44da61",
         "name": "",
         "x": 770,
@@ -195,10 +190,10 @@
         ]
     },
     {
-        "id": "319f328364bb3b0b",
+        "id": "6fceb1822a2637d5",
         "type": "inject",
-        "z": "a56d2510086646c6",
-        "g": "b40ee474efcbeb4f",
+        "z": "5e2319cafdae2dc2",
+        "g": "66490e5be2e5c76b",
         "name": "",
         "props": [
             {
@@ -220,30 +215,30 @@
         "y": 120,
         "wires": [
             [
-                "29f974c9c6654745"
+                "28ed450dc50a0901"
             ]
         ]
     },
     {
-        "id": "846dfeda76fa248f",
+        "id": "c4a3cae13aacd0db",
         "type": "mysql",
-        "z": "a56d2510086646c6",
-        "g": "b40ee474efcbeb4f",
+        "z": "5e2319cafdae2dc2",
+        "g": "66490e5be2e5c76b",
         "mydb": "9e13d4612c44da61",
         "name": "",
         "x": 770,
         "y": 120,
         "wires": [
             [
-                "292fe233df1547b0"
+                "cadfbbd2f1d3de85"
             ]
         ]
     },
     {
-        "id": "29f974c9c6654745",
+        "id": "28ed450dc50a0901",
         "type": "function",
-        "z": "a56d2510086646c6",
-        "g": "b40ee474efcbeb4f",
+        "z": "5e2319cafdae2dc2",
+        "g": "66490e5be2e5c76b",
         "name": "moyenne temp",
         "func": "msg.topic = `\n  SELECT ROUND(AVG(valeur), 2) AS moyenne_temp\n  FROM temperature\n  WHERE date >= NOW() - INTERVAL 5 MINUTE\n`;\n\nreturn msg;",
         "outputs": 1,
@@ -256,15 +251,15 @@
         "y": 120,
         "wires": [
             [
-                "846dfeda76fa248f"
+                "c4a3cae13aacd0db"
             ]
         ]
     },
     {
-        "id": "36381abb3ec25669",
+        "id": "df2a9743f1ed472c",
         "type": "function",
-        "z": "a56d2510086646c6",
-        "g": "03d45f06dabc29f0",
+        "z": "5e2319cafdae2dc2",
+        "g": "bc4767601cd2b386",
         "name": "humidite fonc",
         "func": "let data = JSON.parse(msg.payload);\nmsg.topic = \"INSERT INTO humidite (valeur, date) VALUES (?, NOW())\";\nmsg.payload = [data.temp];\nreturn msg;",
         "outputs": 1,
@@ -277,15 +272,15 @@
         "y": 320,
         "wires": [
             [
-                "32c8d929b78b7644"
+                "128aa01b24310cae"
             ]
         ]
     },
     {
-        "id": "32c8d929b78b7644",
+        "id": "128aa01b24310cae",
         "type": "mysql",
-        "z": "a56d2510086646c6",
-        "g": "03d45f06dabc29f0",
+        "z": "5e2319cafdae2dc2",
+        "g": "bc4767601cd2b386",
         "mydb": "9e13d4612c44da61",
         "name": "",
         "x": 790,
@@ -295,10 +290,10 @@
         ]
     },
     {
-        "id": "9e1610ee61fbb3cb",
+        "id": "5d378c35c4c27171",
         "type": "inject",
-        "z": "a56d2510086646c6",
-        "g": "03d45f06dabc29f0",
+        "z": "5e2319cafdae2dc2",
+        "g": "bc4767601cd2b386",
         "name": "",
         "props": [
             {
@@ -320,30 +315,30 @@
         "y": 280,
         "wires": [
             [
-                "6512920ea2199fbe"
+                "2785ae4329da0830"
             ]
         ]
     },
     {
-        "id": "dc06ca67f906a9f6",
+        "id": "ddb02632d26d607c",
         "type": "mysql",
-        "z": "a56d2510086646c6",
-        "g": "03d45f06dabc29f0",
+        "z": "5e2319cafdae2dc2",
+        "g": "bc4767601cd2b386",
         "mydb": "9e13d4612c44da61",
         "name": "",
         "x": 790,
         "y": 280,
         "wires": [
             [
-                "64dbb9dd94825f27"
+                "f8dacc62384583d6"
             ]
         ]
     },
     {
-        "id": "6512920ea2199fbe",
+        "id": "2785ae4329da0830",
         "type": "function",
-        "z": "a56d2510086646c6",
-        "g": "03d45f06dabc29f0",
+        "z": "5e2319cafdae2dc2",
+        "g": "bc4767601cd2b386",
         "name": "moyenne humidite",
         "func": "msg.topic = `\n  SELECT ROUND(AVG(valeur), 2) AS moyenne_humidite\n  FROM humidite\n  WHERE date >= NOW() - INTERVAL 5 MINUTE\n`;\n\nreturn msg;",
         "outputs": 1,
@@ -356,15 +351,15 @@
         "y": 280,
         "wires": [
             [
-                "dc06ca67f906a9f6"
+                "ddb02632d26d607c"
             ]
         ]
     },
     {
-        "id": "d445f8ae5e77d14d",
+        "id": "09392c9f9eb30207",
         "type": "function",
-        "z": "a56d2510086646c6",
-        "g": "88461d10d6bebc15",
+        "z": "5e2319cafdae2dc2",
+        "g": "7f74d5e9e9d60cb3",
         "name": "pression fonc",
         "func": "let data = JSON.parse(msg.payload);\nmsg.topic = \"INSERT INTO pression (valeur, date) VALUES (?, NOW())\";\nmsg.payload = [data.temp];\nreturn msg;",
         "outputs": 1,
@@ -377,15 +372,15 @@
         "y": 480,
         "wires": [
             [
-                "98b7800ae2c33608"
+                "1320e995f26dd241"
             ]
         ]
     },
     {
-        "id": "98b7800ae2c33608",
+        "id": "1320e995f26dd241",
         "type": "mysql",
-        "z": "a56d2510086646c6",
-        "g": "88461d10d6bebc15",
+        "z": "5e2319cafdae2dc2",
+        "g": "7f74d5e9e9d60cb3",
         "mydb": "9e13d4612c44da61",
         "name": "",
         "x": 790,
@@ -395,10 +390,10 @@
         ]
     },
     {
-        "id": "b92e95cca7647e36",
+        "id": "5144119374212a3e",
         "type": "inject",
-        "z": "a56d2510086646c6",
-        "g": "88461d10d6bebc15",
+        "z": "5e2319cafdae2dc2",
+        "g": "7f74d5e9e9d60cb3",
         "name": "",
         "props": [
             {
@@ -420,30 +415,30 @@
         "y": 440,
         "wires": [
             [
-                "ec9fafc2b9d2ea68"
+                "a6376f8b91029835"
             ]
         ]
     },
     {
-        "id": "02ba36fc493dc64c",
+        "id": "b94d939c80f0afe6",
         "type": "mysql",
-        "z": "a56d2510086646c6",
-        "g": "88461d10d6bebc15",
+        "z": "5e2319cafdae2dc2",
+        "g": "7f74d5e9e9d60cb3",
         "mydb": "9e13d4612c44da61",
         "name": "",
         "x": 790,
         "y": 440,
         "wires": [
             [
-                "e0cf1a091b5f4b9a"
+                "9a1e1f14b0a62223"
             ]
         ]
     },
     {
-        "id": "ec9fafc2b9d2ea68",
+        "id": "a6376f8b91029835",
         "type": "function",
-        "z": "a56d2510086646c6",
-        "g": "88461d10d6bebc15",
+        "z": "5e2319cafdae2dc2",
+        "g": "7f74d5e9e9d60cb3",
         "name": "moyenne pression",
         "func": "msg.topic = `\n  SELECT ROUND(AVG(valeur), 2) AS moyenne_pression\n  FROM pression\n  WHERE date >= NOW() - INTERVAL 5 MINUTE\n`;\n\nreturn msg;",
         "outputs": 1,
@@ -456,15 +451,15 @@
         "y": 440,
         "wires": [
             [
-                "02ba36fc493dc64c"
+                "b94d939c80f0afe6"
             ]
         ]
     },
     {
-        "id": "bed098e828c99eb3",
+        "id": "e2874571c47101d4",
         "type": "mqtt in",
-        "z": "a56d2510086646c6",
-        "g": "ecaeea901ab36ce7",
+        "z": "5e2319cafdae2dc2",
+        "g": "dc71acc2b7ba6c2c",
         "name": "Qair ",
         "topic": "capteur/Qair",
         "qos": "2",
@@ -478,15 +473,15 @@
         "y": 640,
         "wires": [
             [
-                "e0ad7107a4e38cf1"
+                "4948f3a829faeb29"
             ]
         ]
     },
     {
-        "id": "e0ad7107a4e38cf1",
+        "id": "4948f3a829faeb29",
         "type": "function",
-        "z": "a56d2510086646c6",
-        "g": "ecaeea901ab36ce7",
+        "z": "5e2319cafdae2dc2",
+        "g": "dc71acc2b7ba6c2c",
         "name": "Qair fonc",
         "func": "let data = JSON.parse(msg.payload);\nmsg.topic = \"INSERT INTO co2 (valeur , date) VALUES (?, NOW())\";\nmsg.payload = [data.temp];\nreturn msg;",
         "outputs": 1,
@@ -499,15 +494,15 @@
         "y": 640,
         "wires": [
             [
-                "5dc5ae79fb39de63"
+                "82ba761486c6f5f9"
             ]
         ]
     },
     {
-        "id": "5dc5ae79fb39de63",
+        "id": "82ba761486c6f5f9",
         "type": "mysql",
-        "z": "a56d2510086646c6",
-        "g": "ecaeea901ab36ce7",
+        "z": "5e2319cafdae2dc2",
+        "g": "dc71acc2b7ba6c2c",
         "mydb": "9e13d4612c44da61",
         "name": "",
         "x": 770,
@@ -517,10 +512,10 @@
         ]
     },
     {
-        "id": "98c818297fcce56e",
+        "id": "65daa40ae44f8a22",
         "type": "inject",
-        "z": "a56d2510086646c6",
-        "g": "ecaeea901ab36ce7",
+        "z": "5e2319cafdae2dc2",
+        "g": "dc71acc2b7ba6c2c",
         "name": "",
         "props": [
             {
@@ -542,30 +537,30 @@
         "y": 600,
         "wires": [
             [
-                "57125e2fb2978730"
+                "4422038fbe97cbeb"
             ]
         ]
     },
     {
-        "id": "3a10e8f94505e7c7",
+        "id": "a09fb05092122063",
         "type": "mysql",
-        "z": "a56d2510086646c6",
-        "g": "ecaeea901ab36ce7",
+        "z": "5e2319cafdae2dc2",
+        "g": "dc71acc2b7ba6c2c",
         "mydb": "9e13d4612c44da61",
         "name": "",
         "x": 770,
         "y": 600,
         "wires": [
             [
-                "7c58e389eae8fe39"
+                "59d751ed871f4f21"
             ]
         ]
     },
     {
-        "id": "57125e2fb2978730",
+        "id": "4422038fbe97cbeb",
         "type": "function",
-        "z": "a56d2510086646c6",
-        "g": "ecaeea901ab36ce7",
+        "z": "5e2319cafdae2dc2",
+        "g": "dc71acc2b7ba6c2c",
         "name": "moyenne Qair ",
         "func": "msg.topic = `\n  SELECT ROUND(AVG(valeur), 2) AS moyenne_co2\n  FROM co2\n  WHERE date >= NOW() - INTERVAL 5 MINUTE\n`;\n\nreturn msg;",
         "outputs": 1,
@@ -578,15 +573,15 @@
         "y": 600,
         "wires": [
             [
-                "3a10e8f94505e7c7"
+                "a09fb05092122063"
             ]
         ]
     },
     {
-        "id": "130620fe9ab68776",
+        "id": "3a0a1a35ca41e689",
         "type": "mqtt in",
-        "z": "a56d2510086646c6",
-        "g": "b71f66de2934439b",
+        "z": "5e2319cafdae2dc2",
+        "g": "7040a353186ce2b6",
         "name": "lux",
         "topic": "capteur/lux",
         "qos": "2",
@@ -600,15 +595,15 @@
         "y": 800,
         "wires": [
             [
-                "28d99483b90b2e3f"
+                "2bc5cd9b8828be44"
             ]
         ]
     },
     {
-        "id": "28d99483b90b2e3f",
+        "id": "2bc5cd9b8828be44",
         "type": "function",
-        "z": "a56d2510086646c6",
-        "g": "b71f66de2934439b",
+        "z": "5e2319cafdae2dc2",
+        "g": "7040a353186ce2b6",
         "name": "lux fonc",
         "func": "let data = JSON.parse(msg.payload);\nmsg.topic = \"INSERT INTO lux (valeur, date) VALUES (?, NOW())\";\nmsg.payload = [data.temp];\nreturn msg;",
         "outputs": 1,
@@ -621,15 +616,15 @@
         "y": 800,
         "wires": [
             [
-                "ef26236a82c24402"
+                "50b0e2300c641b33"
             ]
         ]
     },
     {
-        "id": "ef26236a82c24402",
+        "id": "50b0e2300c641b33",
         "type": "mysql",
-        "z": "a56d2510086646c6",
-        "g": "b71f66de2934439b",
+        "z": "5e2319cafdae2dc2",
+        "g": "7040a353186ce2b6",
         "mydb": "9e13d4612c44da61",
         "name": "",
         "x": 750,
@@ -639,10 +634,10 @@
         ]
     },
     {
-        "id": "7d49b999a6e87d3c",
+        "id": "b41684f2bd4d671e",
         "type": "inject",
-        "z": "a56d2510086646c6",
-        "g": "b71f66de2934439b",
+        "z": "5e2319cafdae2dc2",
+        "g": "7040a353186ce2b6",
         "name": "",
         "props": [
             {
@@ -664,30 +659,30 @@
         "y": 760,
         "wires": [
             [
-                "887a338a3b3280fd"
+                "91fb0d57eaa63e84"
             ]
         ]
     },
     {
-        "id": "e34daf3b09d5b8a1",
+        "id": "f90125ad2b167a59",
         "type": "mysql",
-        "z": "a56d2510086646c6",
-        "g": "b71f66de2934439b",
+        "z": "5e2319cafdae2dc2",
+        "g": "7040a353186ce2b6",
         "mydb": "9e13d4612c44da61",
         "name": "",
         "x": 750,
         "y": 760,
         "wires": [
             [
-                "3307f821b51682b9"
+                "1d7caed6273e31c4"
             ]
         ]
     },
     {
-        "id": "887a338a3b3280fd",
+        "id": "91fb0d57eaa63e84",
         "type": "function",
-        "z": "a56d2510086646c6",
-        "g": "b71f66de2934439b",
+        "z": "5e2319cafdae2dc2",
+        "g": "7040a353186ce2b6",
         "name": "moyenne lux",
         "func": "msg.topic = `\n  SELECT ROUND(AVG(valeur), 2) AS moyenne_lux\n  FROM lux\n  WHERE date >= NOW() - INTERVAL 5 MINUTE\n`;\n\nreturn msg;",
         "outputs": 1,
@@ -700,15 +695,15 @@
         "y": 760,
         "wires": [
             [
-                "e34daf3b09d5b8a1"
+                "f90125ad2b167a59"
             ]
         ]
     },
     {
-        "id": "bb23930badcfa79b",
+        "id": "69c053e5153db793",
         "type": "mqtt in",
-        "z": "a56d2510086646c6",
-        "g": "4353664f47c4e532",
+        "z": "5e2319cafdae2dc2",
+        "g": "feb221da3d385151",
         "name": "vent ",
         "topic": "capteur/vent",
         "qos": "2",
@@ -722,15 +717,15 @@
         "y": 960,
         "wires": [
             [
-                "8fc39666d720e7d0"
+                "3d4c20428fcff282"
             ]
         ]
     },
     {
-        "id": "8fc39666d720e7d0",
+        "id": "3d4c20428fcff282",
         "type": "function",
-        "z": "a56d2510086646c6",
-        "g": "4353664f47c4e532",
+        "z": "5e2319cafdae2dc2",
+        "g": "feb221da3d385151",
         "name": "vent fonc",
         "func": "let data = JSON.parse(msg.payload);\nmsg.topic = \"INSERT INTO vent (valeur , date) VALUES (?, NOW())\";\nmsg.payload = [data.temp];\nreturn msg;",
         "outputs": 1,
@@ -743,15 +738,15 @@
         "y": 960,
         "wires": [
             [
-                "fda429f56e70e068"
+                "6e8a98a083f8ed47"
             ]
         ]
     },
     {
-        "id": "fda429f56e70e068",
+        "id": "6e8a98a083f8ed47",
         "type": "mysql",
-        "z": "a56d2510086646c6",
-        "g": "4353664f47c4e532",
+        "z": "5e2319cafdae2dc2",
+        "g": "feb221da3d385151",
         "mydb": "9e13d4612c44da61",
         "name": "",
         "x": 770,
@@ -761,10 +756,10 @@
         ]
     },
     {
-        "id": "6a36296e935bfc3c",
+        "id": "aa5d3809a5350cd2",
         "type": "inject",
-        "z": "a56d2510086646c6",
-        "g": "4353664f47c4e532",
+        "z": "5e2319cafdae2dc2",
+        "g": "feb221da3d385151",
         "name": "",
         "props": [
             {
@@ -786,30 +781,30 @@
         "y": 920,
         "wires": [
             [
-                "14f29eeb7e548e8e"
+                "25782ad6b4e2afee"
             ]
         ]
     },
     {
-        "id": "15f824b8e2d35f3e",
+        "id": "582c66ac85586a74",
         "type": "mysql",
-        "z": "a56d2510086646c6",
-        "g": "4353664f47c4e532",
+        "z": "5e2319cafdae2dc2",
+        "g": "feb221da3d385151",
         "mydb": "9e13d4612c44da61",
         "name": "",
         "x": 770,
         "y": 920,
         "wires": [
             [
-                "47dd1a2b69aef30c"
+                "dfe1a21857b0d18b"
             ]
         ]
     },
     {
-        "id": "14f29eeb7e548e8e",
+        "id": "25782ad6b4e2afee",
         "type": "function",
-        "z": "a56d2510086646c6",
-        "g": "4353664f47c4e532",
+        "z": "5e2319cafdae2dc2",
+        "g": "feb221da3d385151",
         "name": "moyenne vent ",
         "func": "msg.topic = `\n  SELECT ROUND(AVG(valeur), 2) AS moyenne_vent \n  FROM vent\n  WHERE date >= NOW() - INTERVAL 5 MINUTE\n`;\n\nreturn msg;",
         "outputs": 1,
@@ -822,14 +817,14 @@
         "y": 920,
         "wires": [
             [
-                "15f824b8e2d35f3e"
+                "582c66ac85586a74"
             ]
         ]
     },
     {
-        "id": "14d5cfa4b4e124bb",
+        "id": "8f88960aa3246369",
         "type": "ui_button",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "name": "",
         "group": "884da7b7a864ddfb",
         "order": 0,
@@ -846,18 +841,18 @@
         "payloadType": "str",
         "topic": "▶️",
         "topicType": "msg",
-        "x": 1310,
+        "x": 1290,
         "y": 180,
         "wires": [
             [
-                "6f9996a6e2ebcf89"
+                "49193244547d563d"
             ]
         ]
     },
     {
-        "id": "63b553462019cd6c",
+        "id": "b22a87b41393aa24",
         "type": "ui_button",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "name": "",
         "group": "884da7b7a864ddfb",
         "order": 0,
@@ -874,18 +869,18 @@
         "payloadType": "str",
         "topic": "◀️",
         "topicType": "msg",
-        "x": 1310,
+        "x": 1290,
         "y": 140,
         "wires": [
             [
-                "6f9996a6e2ebcf89"
+                "49193244547d563d"
             ]
         ]
     },
     {
-        "id": "6f9996a6e2ebcf89",
+        "id": "49193244547d563d",
         "type": "function",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "name": "function 1",
         "func": "let index = flow.get(\"moyenne_index\") || 0;\n\nif (msg.payload === \"next\") {\n  index = (index + 1) % 6;\n} else if (msg.payload === \"prev\") {\n  index = (index - 1 + 6) % 6;\n}\n\nflow.set(\"moyenne_index\", index);\nmsg.payload = index;\nreturn msg;",
         "outputs": 1,
@@ -898,14 +893,14 @@
         "y": 160,
         "wires": [
             [
-                "9ebf3513fb1c8dbd"
+                "63033a1fd5f05ea5"
             ]
         ]
     },
     {
-        "id": "9ebf3513fb1c8dbd",
+        "id": "63033a1fd5f05ea5",
         "type": "function",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "name": "function 2",
         "func": "const index = msg.payload;\nconst requetes = [\n  \"SELECT ROUND(AVG(valeur), 1) AS value FROM temperature WHERE date >= NOW() - INTERVAL 5 MINUTE\",\n  \"SELECT ROUND(AVG(valeur), 1) AS value FROM humidite WHERE date >= NOW() - INTERVAL 5 MINUTE\",\n  \"SELECT ROUND(AVG(valeur), 1) AS value FROM pression WHERE date >= NOW() - INTERVAL 5 MINUTE\",\n  \"SELECT ROUND(AVG(valeur), 1) AS value FROM co2 WHERE date >= NOW() - INTERVAL 5 MINUTE\",\n  \"SELECT ROUND(AVG(valeur), 1) AS value FROM lux WHERE date >= NOW() - INTERVAL 5 MINUTE\",\n  \"SELECT ROUND(AVG(valeur), 1) AS value FROM vent WHERE date >= NOW() - INTERVAL 5 MINUTE\"\n];\n\nmsg.topic = requetes[index];\nreturn msg;",
         "outputs": 1,
@@ -918,36 +913,38 @@
         "y": 160,
         "wires": [
             [
-                "e81eb1d7fb8c170f",
-                "2ac024e69e797e04"
+                "e78adaee39cb1c82",
+                "3b8487fac53053f2",
+                "f5bb38cf51d9aa15",
+                "141b4e3396af6abc"
             ]
         ]
     },
     {
-        "id": "e81eb1d7fb8c170f",
+        "id": "e78adaee39cb1c82",
         "type": "mysql",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "mydb": "9e13d4612c44da61",
         "name": "",
         "x": 1730,
         "y": 160,
         "wires": [
             [
-                "96ec77fe59b2b16c",
-                "c21f1e6d893667e9"
+                "ac5bfb8a05d8f4bd",
+                "c8f31ca7fa46af80"
             ]
         ]
     },
     {
-        "id": "2ac024e69e797e04",
+        "id": "3b8487fac53053f2",
         "type": "ui_text",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "group": "884da7b7a864ddfb",
         "order": 2,
         "width": 0,
         "height": 0,
         "name": "",
-        "label": "controle",
+        "label": "Control",
         "format": "{{msg.payload}}",
         "layout": "col-center",
         "className": "",
@@ -956,13 +953,13 @@
         "fontSize": 16,
         "color": "#000000",
         "x": 1740,
-        "y": 100,
+        "y": 220,
         "wires": []
     },
     {
-        "id": "96ec77fe59b2b16c",
+        "id": "ac5bfb8a05d8f4bd",
         "type": "function",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "name": "function 3",
         "func": "const types = [\"Température\", \"Humidité\", \"Pression\", \"CO2\", \"Lumière\", \"vent\"];\nlet index = flow.get(\"moyenne_index\") || 0;\nlet valeur = msg.payload[0].value;\n\nmsg.payload = `${types[index]}: ${valeur}`;\nreturn msg;",
         "outputs": 1,
@@ -971,18 +968,18 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1880,
+        "x": 1920,
         "y": 160,
         "wires": [
             [
-                "2947a8b2e42dadde"
+                "b96c515ca08324e1"
             ]
         ]
     },
     {
-        "id": "2947a8b2e42dadde",
+        "id": "b96c515ca08324e1",
         "type": "mqtt out",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "name": "lcd",
         "topic": "lcd/texte",
         "qos": "",
@@ -993,14 +990,14 @@
         "correl": "",
         "expiry": "",
         "broker": "16f1c4c15983079e",
-        "x": 2010,
+        "x": 2050,
         "y": 160,
         "wires": []
     },
     {
-        "id": "0b8de90cf5724ae5",
+        "id": "32aab93be14661f9",
         "type": "mqtt out",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "name": "led",
         "topic": "led/indicator",
         "qos": "",
@@ -1011,14 +1008,14 @@
         "correl": "",
         "expiry": "",
         "broker": "16f1c4c15983079e",
-        "x": 2010,
+        "x": 2050,
         "y": 220,
         "wires": []
     },
     {
-        "id": "c21f1e6d893667e9",
+        "id": "c8f31ca7fa46af80",
         "type": "function",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "name": "function 5",
         "func": "//const types = [\"Température\", \"Humidité\", \"Pression\", \"CO2\", \"Lumière\", \"vent\"]; pour indication\n\nlet index = flow.get(\"moyenne_index\") || 0;\nlet val = msg.payload[0].value;\n\nconst min = [-10, 0, 950, 400, 0, 0];\nconst max = [40, 100, 1050, 2000, 500, 70];\n\n\n// Clamp la valeur dans les bornes\nconst ratio = Math.min(Math.max((val - min[index]) / (max[index] - min[index]), 0), 1);\n\n// Détermine le nombre de LEDs à allumer (1 à 8)\nconst ledCount = Math.round(ratio * 7) + 1;\n\nconst lux2 = Math.round(255*4*(ratio-ratio**(2)));\nconst lux1 = Math.round(255*ratio-lux2/2) ;\nconst lux3 = Math.round(255*(1-ratio)-lux2/2); \n\nconst co1 = Math.round(255 * (1 - ratio));\nconst co2 =Math.round(255 * ratio);\n\n// Couleur dégradée du rouge (min) au vert (max)\nconst r = [co2, co1, co2, 255, lux1+lux2+lux3/4,co2];\nconst g = [0, co1, co2, co2, lux1/2+lux2+lux3/4,255];\nconst b = [co1, 255, 255, 0, lux2+lux3,co2];\n\n// Génère un tableau de 8 LEDs\nconst leds = [];\nfor (let i = 0; i < 8; i++) {\n    if (i < ledCount) {\n        leds.push([r[index], g[index], b[index]]); // LED allumée\n    } else {\n        leds.push([0, 0, 0]); // LED éteinte\n    }\n}\n\n// Envoi à ESPHome via MQTT\nmsg.topic = \"esp32/barre_led/set\";\nmsg.payload = {\n    effect: \"addressable_lambda\",\n    brightness: 255,\n    color_type: \"rgb\",\n    rgb: leds\n};\n\nreturn msg;\n",
         "outputs": 1,
@@ -1027,18 +1024,18 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1880,
+        "x": 1920,
         "y": 220,
         "wires": [
             [
-                "0b8de90cf5724ae5"
+                "32aab93be14661f9"
             ]
         ]
     },
     {
-        "id": "6ef7514dc4040a30",
+        "id": "a887843dfd3d663a",
         "type": "inject",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "name": "",
         "props": [
             {
@@ -1056,20 +1053,20 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 1150,
+        "x": 1090,
         "y": 160,
         "wires": [
             [
-                "63b553462019cd6c",
-                "14d5cfa4b4e124bb",
-                "5682f85fbc19d455"
+                "b22a87b41393aa24",
+                "8f88960aa3246369",
+                "f1fcfc98f0790bc4"
             ]
         ]
     },
     {
-        "id": "3c9c111bcf34a9f3",
+        "id": "804d008dadfed8cb",
         "type": "mqtt out",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "name": "MQTT Alerte ON",
         "topic": "buzzer/etat",
         "qos": "1",
@@ -1085,23 +1082,23 @@
         "wires": []
     },
     {
-        "id": "13e9638a93a65e47",
+        "id": "d0b8fc5df0052a55",
         "type": "mysql",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "mydb": "9e13d4612c44da61",
         "name": "",
         "x": 1750,
         "y": 300,
         "wires": [
             [
-                "192bb1ab05ab385f"
+                "17cca0a768fc5a78"
             ]
         ]
     },
     {
-        "id": "5682f85fbc19d455",
+        "id": "f1fcfc98f0790bc4",
         "type": "function",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "name": "function 4",
         "func": "const requetes = [\n  { type: \"Température\",  sql: \"SELECT ROUND(AVG(valeur), 1) AS value FROM temperature WHERE date >= NOW() - INTERVAL 5 MINUTE\" },\n  { type: \"Humidité\",     sql: \"SELECT ROUND(AVG(valeur), 1) AS value FROM humidite WHERE date >= NOW() - INTERVAL 5 MINUTE\" },\n  { type: \"Pression\",     sql: \"SELECT ROUND(AVG(valeur), 1) AS value FROM pression WHERE date >= NOW() - INTERVAL 5 MINUTE\" },\n  { type: \"CO2\",          sql: \"SELECT ROUND(AVG(valeur), 1) AS value FROM co2 WHERE date >= NOW() - INTERVAL 5 MINUTE\" },\n  { type: \"Lumière\",      sql: \"SELECT ROUND(AVG(valeur), 1) AS value FROM lux WHERE date >= NOW() - INTERVAL 5 MINUTE\" },\n  { type: \"Vent\",         sql: \"SELECT ROUND(AVG(valeur), 1) AS value FROM vent WHERE date >= NOW() - INTERVAL 5 MINUTE\" }\n];\n\n// on ajoute type pour le garder dans chaque msg\nmsg.payload = requetes;\nreturn msg;",
         "outputs": 1,
@@ -1114,14 +1111,14 @@
         "y": 300,
         "wires": [
             [
-                "6155dc9ca3c8ba6f"
+                "ed69abc7b6be4e98"
             ]
         ]
     },
     {
-        "id": "192bb1ab05ab385f",
+        "id": "17cca0a768fc5a78",
         "type": "function",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "name": "function 6",
         "func": "// Liste des seuils\nconst seuils = {\n    \"Température\": 32,\n    \"Humidité\": 60,\n    \"Pression\": 1015,\n    \"CO2\": 1000,\n    \"Lumière\": 40000,\n    \"Vent\": 20\n};\n\n// msg.payload doit être un tableau d'objets comme :\n// [{ type: \"Température\", value: 26.5 }, ...]\n\nlet alerte = false;\n\nfor (let mesure of msg.payload) {\n    const type = mesure.type;\n    const valeur = mesure.value ?? null;\n    const seuil = seuils[type];\n\n    if (valeur !== null && valeur > seuil) {\n        alerte = true;\n        break;  // Dès qu'une alerte est détectée, inutile de continuer\n    }\n}\n\nmsg.payload = alerte;  // true ou false\nreturn msg;",
         "outputs": 1,
@@ -1134,14 +1131,14 @@
         "y": 300,
         "wires": [
             [
-                "cb96e6fa563d7e65"
+                "d64e030a4e64b99c"
             ]
         ]
     },
     {
-        "id": "6155dc9ca3c8ba6f",
+        "id": "ed69abc7b6be4e98",
         "type": "split",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "name": "split moyenne",
         "splt": "\\n",
         "spltType": "str",
@@ -1154,14 +1151,14 @@
         "y": 300,
         "wires": [
             [
-                "dc8f393ffe805233"
+                "d082396b8066adc3"
             ]
         ]
     },
     {
-        "id": "dc8f393ffe805233",
+        "id": "d082396b8066adc3",
         "type": "function",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "name": "function 8",
         "func": "msg.topic = msg.payload.sql;\nmsg.type = msg.payload.type;\nreturn msg;",
         "outputs": 1,
@@ -1174,14 +1171,14 @@
         "y": 300,
         "wires": [
             [
-                "13e9638a93a65e47"
+                "d0b8fc5df0052a55"
             ]
         ]
     },
     {
-        "id": "909c9f10121ee9cb",
+        "id": "5336613c4a3f9d98",
         "type": "mqtt out",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "name": "MQTT Alerte OFF",
         "topic": "buzzer/etat",
         "qos": "2",
@@ -1197,9 +1194,9 @@
         "wires": []
     },
     {
-        "id": "cb96e6fa563d7e65",
+        "id": "d64e030a4e64b99c",
         "type": "switch",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "name": "",
         "property": "payload",
         "propertyType": "msg",
@@ -1222,17 +1219,17 @@
         "y": 300,
         "wires": [
             [
-                "cfdf1ed08ef10bd4"
+                "6dae55c8b6509253"
             ],
             [
-                "7d9b9a7c47ddf032"
+                "ef747c2557389e55"
             ]
         ]
     },
     {
-        "id": "cfdf1ed08ef10bd4",
+        "id": "6dae55c8b6509253",
         "type": "function",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "name": "function 7",
         "func": "msg.payload = \"ON\";\nreturn msg;\n",
         "outputs": 1,
@@ -1245,14 +1242,14 @@
         "y": 280,
         "wires": [
             [
-                "3c9c111bcf34a9f3"
+                "804d008dadfed8cb"
             ]
         ]
     },
     {
-        "id": "7d9b9a7c47ddf032",
+        "id": "ef747c2557389e55",
         "type": "function",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "name": "function 9",
         "func": "msg.payload = \"OFF\";\nreturn msg;\n",
         "outputs": 1,
@@ -1265,14 +1262,14 @@
         "y": 320,
         "wires": [
             [
-                "909c9f10121ee9cb"
+                "5336613c4a3f9d98"
             ]
         ]
     },
     {
-        "id": "0c2381d91303f9ba",
+        "id": "8e8aa96723733032",
         "type": "join",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "name": "",
         "mode": "custom",
         "build": "object",
@@ -1294,14 +1291,14 @@
         "y": 520,
         "wires": [
             [
-                "4c1becf50c946f04"
+                "3145e34777a1b67f"
             ]
         ]
     },
     {
-        "id": "64dbb9dd94825f27",
+        "id": "f8dacc62384583d6",
         "type": "function",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "name": "function 12",
         "func": "msg.topic = ['temp', 'hum', 'pressure', 'co2', 'lux', 'wind'][1];\nreturn msg;",
         "outputs": 1,
@@ -1314,14 +1311,14 @@
         "y": 440,
         "wires": [
             [
-                "0c2381d91303f9ba"
+                "8e8aa96723733032"
             ]
         ]
     },
     {
-        "id": "292fe233df1547b0",
+        "id": "cadfbbd2f1d3de85",
         "type": "function",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "name": "function 13",
         "func": "msg.topic = ['temp', 'hum', 'pressure', 'co2', 'lux', 'wind'][0];\nreturn msg;",
         "outputs": 1,
@@ -1334,14 +1331,14 @@
         "y": 380,
         "wires": [
             [
-                "0c2381d91303f9ba"
+                "8e8aa96723733032"
             ]
         ]
     },
     {
-        "id": "e0cf1a091b5f4b9a",
+        "id": "9a1e1f14b0a62223",
         "type": "function",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "name": "function 14",
         "func": "msg.topic = ['temp', 'hum', 'pressure', 'co2', 'lux', 'wind'][2];\nreturn msg;",
         "outputs": 1,
@@ -1354,14 +1351,14 @@
         "y": 500,
         "wires": [
             [
-                "0c2381d91303f9ba"
+                "8e8aa96723733032"
             ]
         ]
     },
     {
-        "id": "7c58e389eae8fe39",
+        "id": "59d751ed871f4f21",
         "type": "function",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "name": "function 15",
         "func": "msg.topic = ['temp', 'hum', 'pressure', 'co2', 'lux', 'wind'][3];\nreturn msg;",
         "outputs": 1,
@@ -1374,14 +1371,14 @@
         "y": 560,
         "wires": [
             [
-                "0c2381d91303f9ba"
+                "8e8aa96723733032"
             ]
         ]
     },
     {
-        "id": "3307f821b51682b9",
+        "id": "1d7caed6273e31c4",
         "type": "function",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "name": "function 16",
         "func": "msg.topic = ['temp', 'hum', 'pressure', 'co2', 'lux', 'wind'][4];\nreturn msg;",
         "outputs": 1,
@@ -1394,14 +1391,14 @@
         "y": 620,
         "wires": [
             [
-                "0c2381d91303f9ba"
+                "8e8aa96723733032"
             ]
         ]
     },
     {
-        "id": "47dd1a2b69aef30c",
+        "id": "dfe1a21857b0d18b",
         "type": "function",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "name": "function 17",
         "func": "msg.topic = ['temp', 'hum', 'pressure', 'co2', 'lux', 'wind'][5];\nreturn msg;",
         "outputs": 1,
@@ -1414,14 +1411,14 @@
         "y": 680,
         "wires": [
             [
-                "0c2381d91303f9ba"
+                "8e8aa96723733032"
             ]
         ]
     },
     {
-        "id": "3dce44ad72a30f96",
+        "id": "1cc7a94781ef50ab",
         "type": "inject",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "name": "",
         "props": [
             {
@@ -1443,14 +1440,14 @@
         "y": 420,
         "wires": [
             [
-                "408fdc155a2937d7"
+                "af9bc675332ec089"
             ]
         ]
     },
     {
-        "id": "bc0240c7691be51c",
+        "id": "9737266c9cad348f",
         "type": "ui_template",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "group": "5e9bff8d93da06d6",
         "name": "",
         "order": 1,
@@ -1462,18 +1459,18 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 1740,
+        "x": 1880,
         "y": 520,
         "wires": [
             [
-                "290c0ff9cf65e49b"
+                "33a7ad2568e25277"
             ]
         ]
     },
     {
-        "id": "408fdc155a2937d7",
+        "id": "af9bc675332ec089",
         "type": "function",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "name": "function 10",
         "func": "let index = context.get(\"index\") || 0;\n\nconst dayData = [\n    // Hour:   T   H   P   C   L   W\n    {temp: 14, hum: 90, pressure : 1000, co2: 300, lux: 100, wind: 5},    // 0 AM\n    {temp: 13, hum: 92, pressure : 990, co2: 280, lux: 100, wind: 6},\n    {temp: 12, hum: 93, pressure : 980, co2: 250, lux: 100, wind: 4},\n    {temp: 12, hum: 94, pressure : 980, co2: 260, lux: 100, wind: 4},\n    {temp: 13, hum: 93, pressure : 980, co2: 280, lux: 500, wind: 5},\n    {temp: 15, hum: 90, pressure : 990, co2: 320, lux: 1500, wind: 7},   // 5 AM\n    {temp: 18, hum: 85, pressure : 1000, co2: 400, lux: 4000, wind: 10},\n    {temp: 22, hum: 70, pressure : 1010, co2: 450, lux: 6000, wind: 12},\n    {temp: 25, hum: 60, pressure : 1010, co2: 500, lux: 8000, wind: 15},\n    {temp: 28, hum: 55, pressure : 1010, co2: 520, lux: 9000, wind: 18},\n    {temp: 30, hum: 50, pressure : 1000, co2: 550, lux: 10000, wind: 20}, // 10 AM\n    {temp: 31, hum: 48, pressure : 990, co2: 600, lux: 9500, wind: 22},\n    {temp: 32, hum: 45, pressure : 980, co2: 650, lux: 9000, wind: 25},\n    {temp: 31, hum: 50, pressure : 980, co2: 680, lux: 8000, wind: 22},\n    {temp: 29, hum: 55, pressure : 990, co2: 600, lux: 7000, wind: 18},\n    {temp: 27, hum: 60, pressure : 1000, co2: 550, lux: 6000, wind: 15},\n    {temp: 25, hum: 65, pressure : 1000, co2: 520, lux: 4000, wind: 12}, // 4 PM\n    {temp: 22, hum: 70, pressure : 1010, co2: 500, lux: 2000, wind: 10},\n    {temp: 20, hum: 75, pressure : 1010, co2: 480, lux: 1000, wind: 8},\n    {temp: 18, hum: 80, pressure : 1000, co2: 450, lux: 500, wind: 6},\n    {temp: 16, hum: 85, pressure : 1000, co2: 400, lux: 200, wind: 5},\n    {temp: 15, hum: 87, pressure : 990, co2: 350, lux: 100, wind: 4},    // 9 PM\n    {temp: 14, hum: 88, pressure : 990, co2: 330, lux: 50, wind: 3},\n    {temp: 14, hum: 90, pressure : 990, co2: 300, lux: 50, wind: 3}\n];\n; // paste the array above here\n\nmsg.payload = dayData[index];\n\n// Advance to next index\nindex = (index + 1) % dayData.length;\ncontext.set(\"index\", index);\n\n\nreturn msg;",
         "outputs": 1,
@@ -1486,14 +1483,14 @@
         "y": 420,
         "wires": [
             [
-                "4c1becf50c946f04"
+                "3145e34777a1b67f"
             ]
         ]
     },
     {
-        "id": "4c1becf50c946f04",
+        "id": "3145e34777a1b67f",
         "type": "function",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "name": "function 11",
         "func": "const min = [-10, 0, 950, 50, 0, 0];\nconst max = [40, 100, 1050, 40000, 500, 70];\nconst names = ['temp', 'hum', 'pressure', 'co2', 'lux', 'wind'];\n\nconst data = msg.payload || {};\nmsg.payload = {};\n\nnames.forEach((name, i) => {\n    const raw = data[name]; // Attention ici : on lit dans msg.payload\n    const minVal = min[i];\n    const maxVal = max[i];\n    const percent = ((raw - minVal) / (maxVal - minVal)) * 100;\n\n    msg.payload[name] = Math.max(0, Math.min(100, +percent.toFixed(1))); // pour affichage visuel\n    msg.payload[`${name}Val`] = raw; // pour l'affichage réel\n});\n\nreturn msg;\n",
         "outputs": 1,
@@ -1502,18 +1499,18 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1550,
+        "x": 1690,
         "y": 520,
         "wires": [
             [
-                "bc0240c7691be51c"
+                "9737266c9cad348f"
             ]
         ]
     },
     {
-        "id": "c64da74faef99aca",
+        "id": "179f9d49ea65c6b9",
         "type": "mqtt in",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "name": "bme280",
         "topic": "capteur/bmp280",
         "qos": "2",
@@ -1524,19 +1521,19 @@
         "rh": 0,
         "inputs": 0,
         "x": 60,
-        "y": 340,
+        "y": 320,
         "wires": [
             [
-                "3e25d5d1a42323f6",
-                "28a2039c57854a87",
-                "82b68a549e22e52e"
+                "174cbdbc412dfdb3",
+                "93bc6436b2b88ead",
+                "cd31ee0fb797d34a"
             ]
         ]
     },
     {
-        "id": "3e25d5d1a42323f6",
+        "id": "174cbdbc412dfdb3",
         "type": "function",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "name": "function 18",
         "func": "msg.payload=msg.payload[0];\nreturn msg;",
         "outputs": 1,
@@ -1546,17 +1543,17 @@
         "finalize": "",
         "libs": [],
         "x": 250,
-        "y": 220,
+        "y": 160,
         "wires": [
             [
-                "2f4d42c9480dfba9"
+                "15cb79d0135bfc53"
             ]
         ]
     },
     {
-        "id": "28a2039c57854a87",
+        "id": "93bc6436b2b88ead",
         "type": "function",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "name": "function 20",
         "func": "msg.payload=msg.payload[1];\nreturn msg;",
         "outputs": 1,
@@ -1566,17 +1563,17 @@
         "finalize": "",
         "libs": [],
         "x": 250,
-        "y": 300,
+        "y": 320,
         "wires": [
             [
-                "36381abb3ec25669"
+                "df2a9743f1ed472c"
             ]
         ]
     },
     {
-        "id": "82b68a549e22e52e",
+        "id": "cd31ee0fb797d34a",
         "type": "function",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "name": "function 21",
         "func": "msg.paylode=msg.payload[2];\nreturn msg;",
         "outputs": 1,
@@ -1585,61 +1582,32 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 230,
-        "y": 460,
+        "x": 250,
+        "y": 480,
         "wires": [
             [
-                "d445f8ae5e77d14d"
+                "09392c9f9eb30207"
             ]
         ]
     },
     {
-        "id": "a4c32177700bfbeb",
-        "type": "inject",
-        "z": "a56d2510086646c6",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "3600",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "str",
-        "x": 1060,
-        "y": 1040,
-        "wires": [
-            [
-                "679f4a3c52805398"
-            ]
-        ]
-    },
-    {
-        "id": "ab70b6173f0f2c1e",
+        "id": "360d2360c794a4aa",
         "type": "mysql",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "mydb": "9e13d4612c44da61",
         "name": "",
-        "x": 1350,
-        "y": 1040,
+        "x": 1590,
+        "y": 40,
         "wires": [
             [
-                "d6ef441bf84549d1"
+                "f5bb38cf51d9aa15"
             ]
         ]
     },
     {
-        "id": "679f4a3c52805398",
+        "id": "141b4e3396af6abc",
         "type": "function",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "name": "function 19",
         "func": "msg.topic = `\nSELECT\n    h.heure,\n    t.temp_moy,\n    u.hum_moy,\n    c.co2_moy,\n    l.lux_moy,\n    v.wind_moy,\n    p.pression_moy\nFROM (\n    SELECT DATE_FORMAT(date, '%Y-%m-%d %H:00:00') AS heure\n    FROM temperature\n    WHERE date >= NOW() - INTERVAL 7 DAY\n    GROUP BY heure\n) AS h\nLEFT JOIN (\n    SELECT DATE_FORMAT(date, '%Y-%m-%d %H:00:00') AS heure,\n           ROUND(AVG(valeur), 2) AS temp_moy\n    FROM temperature\n    WHERE date >= NOW() - INTERVAL 7 DAY\n    GROUP BY heure\n) AS t USING (heure)\nLEFT JOIN (\n    SELECT DATE_FORMAT(date, '%Y-%m-%d %H:00:00') AS heure,\n           ROUND(AVG(valeur), 2) AS hum_moy\n    FROM humidite\n    WHERE date >= NOW() - INTERVAL 7 DAY\n    GROUP BY heure\n) AS u USING (heure)\nLEFT JOIN (\n    SELECT DATE_FORMAT(date, '%Y-%m-%d %H:00:00') AS heure,\n           ROUND(AVG(valeur), 2) AS co2_moy\n    FROM co2\n    WHERE date >= NOW() - INTERVAL 7 DAY\n    GROUP BY heure\n) AS c USING (heure)\nLEFT JOIN (\n    SELECT DATE_FORMAT(date, '%Y-%m-%d %H:00:00') AS heure,\n           ROUND(AVG(valeur), 2) AS lux_moy\n    FROM lux\n    WHERE date >= NOW() - INTERVAL 7 DAY\n    GROUP BY heure\n) AS l USING (heure)\nLEFT JOIN (\n    SELECT DATE_FORMAT(date, '%Y-%m-%d %H:00:00') AS heure,\n           ROUND(AVG(valeur), 2) AS wind_moy\n    FROM vent\n    WHERE date >= NOW() - INTERVAL 7 DAY\n    GROUP BY heure\n) AS v USING (heure)\nLEFT JOIN (\n    SELECT DATE_FORMAT(date, '%Y-%m-%d %H:00:00') AS heure,\n           ROUND(AVG(valeur), 2) AS pression_moy\n    FROM pression\n    WHERE date >= NOW() - INTERVAL 7 DAY\n    GROUP BY heure\n) AS p USING (heure)\nORDER BY h.heure ASC\n`;\nreturn msg;\n",
         "outputs": 1,
@@ -1648,46 +1616,47 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1210,
-        "y": 1040,
+        "x": 1450,
+        "y": 40,
         "wires": [
             [
-                "ab70b6173f0f2c1e"
+                "360d2360c794a4aa"
             ]
         ]
     },
     {
-        "id": "d6ef441bf84549d1",
+        "id": "b7f71742c410a6f4",
         "type": "function",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "name": "function 22",
-        "func": "// msg.payload contient un tableau d'objets (une ligne = une heure)\nlet labels = [];\nlet temp = [], hum = [], co2 = [], lux = [], wind = [], pressure = [];\n\nmsg.payload.forEach(row => {\n    labels.push(row.heure);\n    temp.push(row.temp_moy);\n    hum.push(row.hum_moy);\n    co2.push(row.co2_moy);\n    lux.push(row.lux_moy);\n    wind.push(row.wind_moy);\n    pressure.push(row.pression_moy);\n});\n\n// Formater pour le ui_chart multiligne\nmsg.payload = [\n    { series: [\"Température\"], data: [temp], labels: labels },\n    { series: [\"Humidité\"], data: [hum], labels: labels },\n    { series: [\"CO2\"], data: [co2], labels: labels },\n    { series: [\"Lumière\"], data: [lux], labels: labels },\n    { series: [\"Vent\"], data: [wind], labels: labels },\n    { series: [\"Pression\"], data: [pressure], labels: labels }\n];\nreturn msg;",
+        "func": "// msg.payload contient un tableau : [index, données]\nlet index = msg.payload[0];\nlet rows = msg.payload[1];\n\nlet labels = [], temp = [], hum = [], co2 = [], lux = [], wind = [], pressure = [];\n\nrows.forEach(row => {\n    labels.push(row.heure);\n    temp.push(row.temp_moy);\n    hum.push(row.hum_moy);\n    co2.push(row.co2_moy);\n    lux.push(row.lux_moy);\n    wind.push(row.wind_moy);\n    pressure.push(row.pression_moy);\n});\n\nlet seriesData = [\n    { series: [\"Température\"], data: [temp], labels: labels },\n    { series: [\"Humidité\"], data: [hum], labels: labels },\n    { series: [\"CO2\"], data: [co2], labels: labels },\n    { series: [\"Lumière\"], data: [lux], labels: labels },\n    { series: [\"Vent\"], data: [wind], labels: labels },\n    { series: [\"Pression\"], data: [pressure], labels: labels }\n];\n\nmsg.payload = [seriesData[index]];\nmsg.topic = seriesData[index].series[0]; // Pour le label dans le graphique\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 1490,
-        "y": 1040,
+        "x": 1950,
+        "y": 40,
         "wires": [
             [
-                "135548d2f296da94"
+                "b052d13194a5e2c5",
+                "f2f099f8eead355c"
             ]
         ]
     },
     {
-        "id": "135548d2f296da94",
+        "id": "b052d13194a5e2c5",
         "type": "ui_chart",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "name": "",
         "group": "884da7b7a864ddfb",
         "order": 3,
         "width": 0,
         "height": 0,
-        "label": "chart",
+        "label": "",
         "chartType": "line",
-        "legend": "false",
+        "legend": "true",
         "xformat": "HH:mm:ss",
         "interpolate": "linear",
         "nodata": "",
@@ -1714,18 +1683,18 @@
         "outputs": 1,
         "useDifferentColor": false,
         "className": "",
-        "x": 1630,
-        "y": 1040,
+        "x": 2090,
+        "y": 40,
         "wires": [
             []
         ]
     },
     {
-        "id": "290c0ff9cf65e49b",
+        "id": "33a7ad2568e25277",
         "type": "debug",
-        "z": "a56d2510086646c6",
+        "z": "5e2319cafdae2dc2",
         "name": "debug 1",
-        "active": true,
+        "active": false,
         "tosidebar": true,
         "console": false,
         "tostatus": false,
@@ -1733,8 +1702,53 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1880,
-        "y": 440,
+        "x": 2040,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "f5bb38cf51d9aa15",
+        "type": "join",
+        "z": "5e2319cafdae2dc2",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": false,
+        "accumulate": false,
+        "timeout": "",
+        "count": "2",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "",
+        "reduceFixup": "",
+        "x": 1760,
+        "y": 40,
+        "wires": [
+            [
+                "b7f71742c410a6f4"
+            ]
+        ]
+    },
+    {
+        "id": "f2f099f8eead355c",
+        "type": "debug",
+        "z": "5e2319cafdae2dc2",
+        "name": "debug 2",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1980,
+        "y": 100,
         "wires": []
     },
     {
@@ -1781,10 +1795,10 @@
     {
         "id": "884da7b7a864ddfb",
         "type": "ui_group",
-        "name": "screen controle",
+        "name": "Screen Control",
         "tab": "0c2d5b718af270ac",
         "order": 2,
-        "disp": true,
+        "disp": false,
         "width": 6,
         "collapse": false,
         "className": ""
@@ -1803,7 +1817,7 @@
     {
         "id": "0c2d5b718af270ac",
         "type": "ui_tab",
-        "name": "contole",
+        "name": "Control",
         "icon": "dashboard",
         "order": 2,
         "disabled": false,
