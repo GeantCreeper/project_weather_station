@@ -39,8 +39,7 @@
 
 ###  Divers
 - Aimant  
-- Prise avec alimentation (1V – 12V)  
-- Connecteur pour prise alimentation
+- Prise avec alimentation (3V – 12V)  
 - vis à bois 
 - Câbles  
 ---
