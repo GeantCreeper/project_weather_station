@@ -90,4 +90,4 @@ Node-RED est utilisé pour :
 ##  Maquette et modèles 3D
 
 - [Structure de la Station Météorologique](https://github.com/GeantCreeper/weather_station/blob/main/sation%20meteo%20v3.dxf)
-- [Anémomètre](https://github.com/GeantCreeper/weather_station/blob/main/cover.3mf)
+- [Anémomètre](https://github.com/GeantCreeper/weather_station/blob/main/anemometre.3mf)
